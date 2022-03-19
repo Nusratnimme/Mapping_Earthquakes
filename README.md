@@ -26,7 +26,7 @@ On the map the magnitudes and location of each earthquake was shown in a popup m
 
 The map was shown below after adding the earthquakes and tectonic plates to the GeoJson layer.
 
-![EQ_Tectonic_plates]()
+![EQ_Tectonic_plates](https://github.com/Nusratnimme/Mapping_Earthquakes/blob/main/Images/Tectonic_Plates.png)
 
 
 ### Adding Major Earthquakes Data
@@ -35,11 +35,11 @@ Major earthqakes data  with magnitude more than 4.5 were retrieved and added to 
 
 Three datasets were added to the map layers as **Earthquakes**, **Tectonic plates** and **Major Earthquakes** respectively.
 
-![Major_EQ]
+![Major_EQ](https://github.com/Nusratnimme/Mapping_Earthquakes/blob/main/Images/MajorEQ.png)
 
 ### Additional Map
 Using JavaScript and Leaflet.js, added a third map style to the earthquake map as **Dark** with **Streets** and **Satellite**.
 
 The following image showing the map.
 
-![Dark_Style]()
+![Dark_Style](https://github.com/Nusratnimme/Mapping_Earthquakes/blob/main/Images/Additional%20map.png)
