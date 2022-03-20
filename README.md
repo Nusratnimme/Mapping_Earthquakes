@@ -2,7 +2,7 @@
 
 ## Overview
 
-Disaster reporting network, a nonprofit company, provides information on disaster around the world. They wanted to visualize data with interactive maps using GeoJSON data on earthquakes.
+Disaster Reporting Network, a nonprofit company, provides data-driven stories on disasters around the world. They want to visualize Earthquake data using interactive and easy to use maps.
 
 ### Resources
 
