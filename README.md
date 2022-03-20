@@ -20,9 +20,9 @@ Using JavaScript and D3.json libraries retrieved the latest earthquakes data and
 
 ### Adding Earthquake and Tectonic Plates Data
 
-To show the relation between the location and the seismic activity, tectonic plates data were added to the map with earthquake data.
+To complete this project, used a URL for GeoJSON earthquake data from the USGS website and retrieve geographical coordinates and the magnitudes of earthquakes for the last seven days. With this initial map, tectonic plates data were used to show the relation between the location and the seismic activity. Both data were then added to the map.
 
-On the map the magnitudes and location of each earthquake was shown in a popup marker. The radius of the markers reflected the magnitudes of the earthquake in their size and color.
+On the map the magnitudes and location of each earthquake was shown in a popup circle marker. The radius of the markers reflected the magnitudes of the earthquake in their size and color.
 
 The map was shown below after adding the earthquakes and tectonic plates to the GeoJson layer.
 
