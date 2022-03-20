@@ -12,11 +12,9 @@ Disaster reporting network, a nonprofit company, provides information on disaste
 
 ### Purpose
 
-The main purpose of this project is to visualize the  earthquakes GeoJson data of different magnitudes for the last seven days.
+The main purpose of this project is to visualize the  earthquakes GeoJson data of different magnitudes for the last seven days. Using JavaScript and D3.json libraries retrieved the latest earthquake data and plotted them on a Mapbox map with an API request. Later some interactive features were included to the map to illustrate the data visualization on earthquakes.
 
 ## Results
-
-Using JavaScript and D3.json libraries retrieved the latest earthquakes data and plotted them on a Mapbox map with an API request. Later some interactive features were added to the map to illastrate the data visualization on earthquakes.
 
 ### Adding Earthquake and Tectonic Plates Data
 
