@@ -6,38 +6,43 @@ Disaster Reporting Network, a nonprofit company, provides data-driven stories on
 
 ### Resources
 
-- Data sources: Earthquakes GeoJSON data was retrieved from USGS survey website and tectonic plates data using "GeoJSON/PB2002_boundaries.json" from a github repository.
+- Data sources: Earthquakes GeoJSON data extracted from US Goelogical Survey (USGS) website; Tectonic plates data "GeoJSON/PB2002_boundaries.json" from a github repository.
 
-- Softwares: VS Code, JavaScript, D3, Mapbox and HTML.
+- Software: VS Code, JavaScript, D3, Mapbox, and HTML.
 
 ### Purpose
 
-The main purpose of this project is to visualize the  earthquakes GeoJson data of different magnitudes for the last seven days. Using JavaScript and D3.json libraries retrieved the latest earthquake data and plotted them on a Mapbox map with an API request. Later some interactive features were included to the map to illustrate the data visualization on earthquakes.
+The main purpose of this project is to visualize data on earthquakes in the last seven days on an interactive map.
+
+The map should be user-friendly and contain information on the location and magnitude of the earthquakes. Fault lines should be layered on the map. Bubbles indicating magnitude of corresponding earthquake through size and color should be added to the map.
 
 ## Results
 
-### Adding Earthquake and Tectonic Plates Data
+### Earthquake and Tectonic Plates Data
 
-To complete this project, used a URL for GeoJSON earthquake data from the USGS website and retrieve geographical coordinates and the magnitudes of earthquakes for the last seven days. With this initial map, tectonic plates data were used to show the relation between the location and the seismic activity. Both data were then added to the map.
+Using an URL, earthquake data containing geographical coordinates and the magnitudes of earthquakes for the last seven days was downloaded from the USGS website. Next, tectonic plates data were used to show the relation between locations and seismic activity. Both data were then added to the map.
 
-On the map the magnitudes and location of each earthquake was shown in a popup circle marker. The radius of the markers reflected the magnitudes of the earthquake in their size and color.
+Magnitudes and location of each earthquake was shown in a popup circle marker. The radius and color of the markers reflected the magnitudes of the earthquakes.
 
-The map was shown below after adding the earthquakes and tectonic plates to the GeoJson layer.
+The resulting map was as below:
 
 ![EQ_Tectonic_plates](https://github.com/Nusratnimme/Mapping_Earthquakes/blob/main/Images/Tectonic_Plates.png)
 
 
-### Adding Major Earthquakes Data
+### Major Earthquakes Data
 
-Major earthqakes data  with magnitude more than 4.5 were retrieved and added to the map.
+Major earthqakes, defined as having a magnitude of more than 4.5 were filtered out and displayed on the map.
 
-Three datasets were added to the map layers as **Earthquakes**, **Tectonic plates** and **Major Earthquakes** respectively.
+So, three layers were added to map, namely **Earthquakes**, **Tectonic plates** and **Major Earthquakes**.
+
+The resulting visualization after this step was as below:
 
 ![Major_EQ](https://github.com/Nusratnimme/Mapping_Earthquakes/blob/main/Images/MajorEQ.png)
 
 ### Additional Map
-Using JavaScript and Leaflet.js, added a third map style to the earthquake map as **Dark** with **Streets** and **Satellite**.
+Using JavaScript and Leaflet.js, a third map style was added to the earthquake visualization as **Dark** with **Streets** and **Satellite**.
 
-The following image showing the map.
+Below image shows the output:
 
 ![Dark_Style](https://github.com/Nusratnimme/Mapping_Earthquakes/blob/main/Images/Additional%20map.png)
+
